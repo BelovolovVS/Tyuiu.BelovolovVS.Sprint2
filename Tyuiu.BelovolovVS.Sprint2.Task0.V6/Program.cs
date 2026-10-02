@@ -35,7 +35,6 @@ namespace Tyuiu.BelovolovVS.Sprint2.Task0.V6
             Console.WriteLine("***************************************************************************");
 
             bool[] res = ds.GetCompareOperations(x, y);
-
             for (int i = 0; i < res.Length; i++)
             {
                 Console.WriteLine($"Результат операции #{i + 1}: {res[i]}");

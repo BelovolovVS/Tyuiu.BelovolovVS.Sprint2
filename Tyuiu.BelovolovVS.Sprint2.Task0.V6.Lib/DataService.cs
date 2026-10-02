@@ -15,7 +15,6 @@ namespace Tyuiu.BelovolovVS.Sprint2.Task0.V6.Lib
             res[3] = x > y;
             res[4] = x <= y;
             res[5] = x >= y;
-
             return res;
         }
     }
