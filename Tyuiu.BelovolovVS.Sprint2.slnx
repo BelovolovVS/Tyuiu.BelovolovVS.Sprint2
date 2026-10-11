@@ -29,4 +29,5 @@
     <Project Path="Tyuiu.BelovolovVS.Sprint2.Task5.V2.Test/Tyuiu.BelovolovVS.Sprint2.Task5.V2.Test.csproj" />
     <Project Path="Tyuiu.BelovolovVS.Sprint2.Task5.V2/Tyuiu.BelovolovVS.Sprint2.Task5.V2.csproj" />
   </Folder>
+  <Folder Name="/Task6/" />
 </Solution>
