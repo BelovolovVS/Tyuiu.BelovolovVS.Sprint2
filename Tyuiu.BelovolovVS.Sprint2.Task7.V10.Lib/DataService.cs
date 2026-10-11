@@ -1,20 +1,24 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
-namespace Tyuiu.BelovolovVS.Sprint2.Task7.V10.Lib;
+﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint2;
 
-public class DataService : ISprint2Task7V10
+namespace Tyuiu.BelovolovVS.Sprint2.Task7.V10.Lib
 {
-    public bool CheckDotInShadedArea(double x, double y)
+    public class DataService : ISprint2Task7V10
     {
-        bool res;
-        if ((y >= Math.Pow(x, 2) - 2) && (y >= Math.Abs(x)))
+        public bool CheckDotInShadedArea(double x, double y)
         {
-            res = true;
-        }
-        else
-        {
-            res = false;
-        }
+            bool res;
 
-        return res;
+            if ((y >= Math.Pow(x, 2) - 2) && (y <= Math.Abs(x)))
+            {
+                res = true;
+            }
+            else
+            {
+                res = false;
+            }
+
+            return res;
+        }
     }
 }
